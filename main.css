@@ -288,3 +288,9 @@ color: #091E42; display: block; text-align: left;
     line-height: 20px;    font-weight: 600;    color: #0078DB;
     display: block;    text-align: left;    
 }
+.footer-conatainer padding-top {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
