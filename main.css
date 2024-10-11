@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
-
+main
+{
+    background-color: whitesmoke;
+}
 header
 {	
     background-color: #005CA8;	display: flex; height: 10vh;
@@ -253,28 +256,48 @@ font-weight: 400;    color: #8993A4;    display:contents;
     text-align: left;    }
 
 .sixth-rows{	display: flex;	gap: 2rem;}
-
-.seventh h1{font-size: 24px;line-height: 32px; font-weight: 700;
-color: #091E42; display: block; text-align: left;
-   }
+.seventh-flex{display: flex;}
 .seventh img{
     
         
-          -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-          height: 30%;
-          width: 50%;
-        
-        
-   }
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 30%;
+    width: 50%;
+  
+  
+}
 
-.seventh p{color: #42526E; font-weight: inherit;font-size: inherit;}
-.seventh-flex{display: flex;}
+   
+
+.seventh-text{margin-left: 2rem;margin-top: 2rem;}
+
+.seventh-text h3{font-size: 12px; line-height: 16px; font-weight: 400;
+color: #8993A4; display: block; text-align: left;
+}
+
+.seventh-text h1{font-size: 28px;  line-height: 40px;  font-weight: 700;
+ color: #091E42; display: block;text-align: left;
+}
+
+.seventh-text p{	font-size: 16px;line-height: 24px; font-weight: 400;
+ color: #041533; display: block;text-align: left; 
+}
+
+.seventh-text button
+{
+    box-shadow: 0 1px 4px 0 rgb(0 106 194 / 20%);
+    background: #0078DB;    border-radius: 4px;
+    outline: none;    margin: 0;    vertical-align: middle;
+    cursor: pointer;    border: 0;    padding: 16px 24px;
+    font-size: 16px;    line-height: 20px;    font-weight: 700;
+    color: #fff;    display: inline-block;
+    text-align: center;    vertical-align: middle;
+}
 
 .seventh-rows-one{	background-color: #C7F2E5 ;}
 .seventh-rows-one div{	margin: 1rem;}
 
-.seventh-rows-two div{	margin: 1rem;}
 .seventh-rows-one h2{	font-size: 20px; line-height: 28px;
     font-weight: 600;    color: #091E42;    display: block;
     text-align: left;   }
@@ -282,15 +305,121 @@ color: #091E42; display: block; text-align: left;
 .seventh-rows-one p{font-size: 14px;   line-height: 20px;
     font-weight: 400;    color: #8993A4;    display: block;
     text-align: left;   }
+.seventh-right{width: 70% ;}
+    .seventh-right-top p:hover
+    {	font-size: 14px;  line-height: 20px;
+        font-weight: 400;    color: #8993A4;    display: flex;
+        text-align: left;   
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f0f0f0;
+        text-decoration: none;
 
-.seventh-para{	display: flex;	justify-content: left;}
-.seventh-para p, .seventh-para i{	font-size: 14px;
-    line-height: 20px;    font-weight: 600;    color: #0078DB;
-    display: block;    text-align: left;    
-}
+    }
+
+    .seventh-right-middle{	display: flex;	justify-content: space-around;}
+    .seventh-right-content div{	padding-left: 0.5rem;}
+    
+    .seventh-right-content div h5{ font-weight: 700;    color: #091E42;
+        text-align: left;    vertical-align: middle}
+    
+    .seventh-right-content div p{	font-size: 12px;    line-height: 16px;
+        font-weight: 400;    color: #8993A4;    display: block;
+        text-align: left;   }
+    
+    .seventh-right-bottom{	display: flex;	justify-content: space-around;}
+    .seventh-right-bottom-two p{	    color: rgb(37, 56, 88);margin: 0;
+        padding: 0;    border: 0;    vertical-align: baseline;
+        font-weight: inherit;    font-size: inherit;}
+    
+    .seventh-right img{	height: 100px; width: 100px;	border-radius: 5px;}
+    
+    .seventh-right-content{	display: flex;}
+    
+    .seventh-right-bottom-two{transform: translateY(-100px);}
+
+    .Eigth{	display: flex; 
+             padding-top: 10%
+             }
+
+    .fourth-text{margin-left: 2rem;margin-top: 2rem;}
+    
+    .fourth-text h3{font-size: 12px; line-height: 16px; font-weight: 400;
+    color: #8993A4; display: block; text-align: left;
+    }
+    
+    .fourth-text h1{font-size: 28px;  line-height: 40px;  font-weight: 700;
+     color: #091E42; display: block;text-align: left;
+    }
+    
+    .fourth-text p{	font-size: 16px;line-height: 24px; font-weight: 400;
+     color: #041533; display: block;text-align: left; 
+    }
+    
+    .fourth-text button
+    {
+        box-shadow: 0 1px 4px 0 rgb(0 106 194 / 20%);
+        background: #0078DB;    border-radius: 4px;
+        outline: black;    margin: 0;    vertical-align: middle;
+        cursor: pointer;    border: 0;    padding: 16px 24px;
+        font-size: 16px;    line-height: 20px;    font-weight: 700;
+        color: #fff;    display: inline-block;
+        text-align: center;    vertical-align: middle;
+    }
+    .Eigth img{
+        float: left;
+        overflow-clip-margin: content box;
+        margin-right: 20px;
+        height: 260px;
+        width: 360px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-conatainer padding-top {
     margin: auto;
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
+    display : flex; flex-direction:row;
+    
+}
+article
+{
+    width: auto;
+    height:auto;
+    background-color: black;
+    color:white;
 }
